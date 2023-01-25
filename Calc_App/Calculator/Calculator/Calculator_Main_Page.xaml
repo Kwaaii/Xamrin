@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.Calculator_Main_Page">
+    <ContentPage.Content>
+        
+        <StackLayout Padding="20">
+            <!-- Top Frame that will display my calculations-->
+            <Frame BackgroundColor="Black" >
+                <Label Text="0" FontSize="40" FontAttributes="Bold"  HorizontalTextAlignment="End" TextColor="White"></Label>
+            </Frame>
+
+            <Grid>
+                <!-- Rows Definations-->
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <!-- Colunm Definations-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- 1st Row-->
+                <Button Grid.Row="0" Grid.Column="0" Text="C" FontSize="Large" FontAttributes="Bold" Padding="25" BackgroundColor="red"/>
+                <Button Grid.Row="0" Grid.Column="1" Text="-" FontSize="Large" FontAttributes="Bold" Padding="25" BackgroundColor="SeaGreen" />
+                <Button Grid.Row="0" Grid.Column="2" Text="/" FontSize="Large" FontAttributes="Bold" Padding="25" BackgroundColor="SeaGreen" />
+                <Button Grid.Row="0" Grid.Column="3" Text="+" FontSize="Large" FontAttributes="Bold" Padding="25" BackgroundColor="SeaGreen"/>
+                <Button Grid.Row="0" Grid.Column="4" Text="X" FontSize="Large" FontAttributes="Bold" Padding="25" BackgroundColor="SeaGreen"/>
+                <!-- 2nd Row-->
+                <Button Grid.Row="1" Grid.Column="0" Text="9" FontSize="Large" FontAttributes="Bold" Padding="25" />
+                <Button Grid.Row="1" Grid.Column="1" Text="8" FontSize="Large" FontAttributes="Bold" Padding="25" />
+                <Button Grid.Row="1" Grid.Column="2" Text="7" FontSize="Large" FontAttributes="Bold" Padding="25" />
+                <Button Grid.Row="1" Grid.Column="3" Text="6" FontSize="Large" FontAttributes="Bold" Padding="25" />
+                <Button Grid.Row="1" Grid.Column="4" Text="5" FontSize="Large" FontAttributes="Bold" Padding="25" />
+                <!-- 3rd Row-->
+                <Button Grid.Row="2" Grid.Column="0" Text="4" FontSize="Large" FontAttributes="Bold" Padding="25" />
+                <Button Grid.Row="2" Grid.Column="1" Text="3" FontSize="Large" FontAttributes="Bold" Padding="25"/>
+                <Button Grid.Row="2" Grid.Column="2" Text="2" FontSize="Large" FontAttributes="Bold" Padding="25"/>
+                <Button Grid.Row="2" Grid.Column="3" Text="1" FontSize="Large" FontAttributes="Bold" Padding="25"/>
+                <Button Grid.Row="2" Grid.Column="4" Text="0" FontSize="Large" FontAttributes="Bold" Padding="25"/>
+                <!-- 4th Row-->
+                <Button Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Text="=" FontSize="Large" FontAttributes="Bold" Padding="25" BackgroundColor="SeaGreen"/> 
+
+
+
+
+
+            </Grid>
+            
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

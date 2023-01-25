@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1982B763-A491-4DB5-B297-DA5C80B385F4}</ProjectGuid>
+    <ProjectGuid>{98CC960F-521D-44F9-8243-D24513E81EB0}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6968b3a4-1835-46a3-ac5c-1ae33b475983}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -88,7 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">
-      <Project>{D05F05DD-F331-4915-99D6-91C64431FB15}</Project>
+      <Project>{330A2348-DD0B-4D67-9001-087D9001807D}</Project>
       <Name>Calculator</Name>
     </ProjectReference>
   </ItemGroup>

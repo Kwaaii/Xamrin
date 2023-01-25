@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{01E6A1C1-E67B-45D0-A6E8-B45EC8740B96}</ProjectGuid>
+    <ProjectGuid>{EA3D554F-0EAE-44B2-974D-12351444D485}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{89a4fe7c-635d-49c9-8d8c-5cd363c0d68d}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -138,7 +138,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">
-      <Project>{D05F05DD-F331-4915-99D6-91C64431FB15}</Project>
+      <Project>{330A2348-DD0B-4D67-9001-087D9001807D}</Project>
       <Name>Calculator</Name>
     </ProjectReference>
   </ItemGroup>
